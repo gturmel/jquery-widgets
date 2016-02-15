@@ -8,10 +8,12 @@ $(function(){
    // 2 click on the thing
    // 3 let the computer know what to do on click
    $(".activateModalButton").on("click", function() {
-      $(".modalContainer").css("display", "block");
+      $(".modalPopUp").css("display", "block");
    });
    $(".closeModalButton").on("click", function() {
-      $(".modalContainer").css("display", "none");
+      $(".modalPopUp").css("display", "none");
    });
-
+   $(".modalContainer").on("click", function() {
+      $(".modalPopUp").css("display", "none")
+   });
 });

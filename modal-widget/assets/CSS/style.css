@@ -3,23 +3,29 @@
    margin: 4em 0 0 4em;
 }
 
-.modalContainer {
-   position: absolute;
+.modalPopUp {
    background-color: #eee;
-   height: 80%;
-   width: 80%;
+   height: 30em;
+   width: 50em;
    margin: auto;
    margin-left: 10%;
    display: none;
 }
 
-.modal {
-
-}
 
 .closeModalButton {
    padding: 0.5em;
    border-radius: 0.1em;
    float: right;
    margin: 1em 1em;
+}
+
+.modalContainer {
+   background-color: lightblue;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+
 }
