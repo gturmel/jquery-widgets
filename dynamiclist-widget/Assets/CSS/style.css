@@ -1,0 +1,19 @@
+body {
+   background-color: #eee;
+}
+
+h3 {
+   margin-top: 150px;
+   color: lightblue;
+   text-align: center;
+}
+
+ul {
+   margin: auto;
+   margin-left: 43%;
+   padding: 1em;
+}
+
+li {
+   margin-top: 10px;
+}
